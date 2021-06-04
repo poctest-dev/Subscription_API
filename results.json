@@ -1,0 +1,128 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-subscription-detail-of-the-provided-user;fetch-subscription-information;;2",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Fetch subscription information",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Site Homepage",
+            "result": {
+              "duration": 23465000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:10"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter 1",
+            "result": {
+              "duration": 722000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:16"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click submit button",
+            "result": {
+              "duration": 1276000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:22"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should get \"\"LiveSafe,Mvision_Endpoint\"\" details of customer",
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:28"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "get-subscription-detail-of-the-provided-user;fetch-subscription-information;;3",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Fetch subscription information",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on Site Homepage",
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:10"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter 2",
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:16"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click submit button",
+            "result": {
+              "duration": 1014000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:22"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should get \"\"Mvision_Cloud,Mobile_Mvision\"\" details of customer",
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "features\\steps.js:28"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-subscription-detail-of-the-provided-user",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Get Subscription detail of the provided user",
+    "uri": "D:\\node_bdd\\Subscription_API\\features\\details.feature"
+  }
+]
